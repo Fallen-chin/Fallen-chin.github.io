@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>Hexo blog building basic tutorial</title>
+      <title>Hexo blog building basic tutorial for macbook</title>
       <link href="/2024/10/27/tutorial/"/>
       <url>/2024/10/27/tutorial/</url>
       
-        <content type="html"><![CDATA[<div class="tip info"><p>foreword📝</p></div><h3 id="foreword"><a href="#foreword" class="headerlink" title="foreword"></a>foreword</h3><ol><li>If you encounter any problems during the blog building process, please search this page to check if the configuration tutorial is already available.</li><li>Encounter problems can be given priority in the article comment area, note that the message please fill in the correct e-mail to ensure that you can receive the webmaster’s reply.</li><li>If you can’t solve the problem, you can send an email to communicate with us, and note your personal information.</li></ol>]]></content>
+        <content type="html"><![CDATA[<div class="tip info"><p>foreword📝<br>This tutorial is my new writing. Since my personal blog was deployed on a Windows computer, this tutorial documents the process of redeploying the environment on my MacBook. It may not be entirely accurate. If you have any questions or find any errors, please leave a message at the bottom of the article. I will respond or update this tutorial as soon as I can!</p></div><h3 id="foreword"><a href="#foreword" class="headerlink" title="foreword"></a>foreword</h3><ol><li>If you encounter any problems during the blog building process, please search this page to check if the configuration tutorial is already available.</li><li>Encounter problems can be given priority in the article comment area, note that the message please fill in the correct e-mail to ensure that you can receive the webmaster’s reply.</li><li>If you can’t solve the problem, you can send an email to communicate with us, and note your personal information.</li></ol><h3 id="node-install"><a href="#node-install" class="headerlink" title="node install"></a>node install</h3><ol><li>go to the website <a href="https://nodejs.org/en?source=post_page-----3d7101d998f4--------------------------------">https://nodejs.org/en?source=post_page-----3d7101d998f4--------------------------------</a> download the Node.js(LTS)</li><li>mmediately following this is a bunch of confirmations for clicking on the MacOS installation (we recommend looking at the details when installing!)</li><li>Modify the npm source. npm downloads various modules, run the command in vscode<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></li></ol><h3 id="git-install"><a href="#git-install" class="headerlink" title="git install"></a>git install</h3><ol><li><p>Install Homebrew (if you haven’t already)</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;</span><br></pre></td></tr></table></figure></li><li><p>after installing, you will see the next steps in your terminal(like this):</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">echo &gt;&gt; /Users/xxx/.zprofile</span><br><span class="line">echo &#x27;eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;&#x27; &gt;&gt; /Users/xxx/.zprofile</span><br><span class="line">eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;</span><br></pre></td></tr></table></figure><p>copy and run it</p></li><li><p>type the commond to install the git</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install git</span><br></pre></td></tr></table></figure></li></ol><h3 id="hexo-install"><a href="#hexo-install" class="headerlink" title="hexo install"></a>hexo install</h3><div class="note info simple"><p>If an EACCES permission error occurs while trying to install Hexo, run the command in vscode<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">mkdir ~/.npm-global</span><br><span class="line">npm config set prefix &#x27;~/.npm-global&#x27;</span><br><span class="line">export PATH=~/.npm-global/bin:$PATH</span><br><span class="line">source ~/.profile</span><br><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p></div><ol><li><p>Install it by entering the following command in the vscode</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></li><li><p>After installation type the command to verify that the installation was successful.</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br><span class="line">hexo -v</span><br><span class="line">git --version</span><br></pre></td></tr></table></figure></li></ol>]]></content>
       
       
       
@@ -20,11 +20,22 @@
     
     
     <entry>
+      <title>comments</title>
+      <link href="/comments/index.html"/>
+      <url>/comments/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>self-introduction</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[<h3 id="about-me"><a href="#about-me" class="headerlink" title="about me"></a>about me</h3><p>name: Aaron<br>school: IVE(LWL)<br>professions: Higher Diploma in Cloud and Data Centre Administration<br>email: official.heizai@gmail.com</p><h3 id="work-experience"><a href="#work-experience" class="headerlink" title="work experience"></a>work experience</h3><p>Cathay Pacific internship<br>Interest Class Tutor: lego education, quadcopter drone programming, microbit, maze game design</p><h3 id="hobby"><a href="#hobby" class="headerlink" title="hobby"></a>hobby</h3><p>play game<br>listen music</p><h3 id="about-this-website"><a href="#about-this-website" class="headerlink" title="about this website"></a>about this website</h3><p>This site is a hexo-based site built on Github</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="about-me"><a href="#about-me" class="headerlink" title="about me"></a>about me</h3><ul><li>name: Aaron</li><li>school: IVE(LWL)</li><li>professions: Higher Diploma in Cloud and Data Centre Administration</li><li>email: official.heizai@gmail.com</li><li>phone: xxxxxxxx</li></ul><h3 id="work-experience"><a href="#work-experience" class="headerlink" title="work experience"></a>work experience</h3><ul><li>Cathay Pacific internship</li><li>Interest Class Tutor: <ol><li>lego education</li><li>quadcopter drone programming</li><li>microbit</li><li>maze game design</li></ol></li></ul><h3 id="hobby"><a href="#hobby" class="headerlink" title="hobby"></a>hobby</h3><ul><li>play game</li><li>listen music</li></ul>]]></content>
       
     </entry>
     
@@ -34,17 +45,6 @@
       <title>categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>comments</title>
-      <link href="/comments/index.html"/>
-      <url>/comments/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -76,28 +76,6 @@
     
     <entry>
       <title></title>
-      <link href="/css/universe.css"/>
-      <url>/css/universe.css</url>
-      
-        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/universe.js"/>
       <url>/js/universe.js</url>
       
@@ -108,9 +86,31 @@
     
     
     <entry>
+      <title></title>
+      <link href="/css/universe.css"/>
+      <url>/css/universe.css</url>
+      
+        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>music</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
