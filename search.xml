@@ -20,22 +20,11 @@
     
     
     <entry>
-      <title>self-introduction</title>
+      <title>About</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[<h3 id="about-me"><a href="#about-me" class="headerlink" title="about me"></a>about me</h3><ul><li>name: Qian Hongyi</li><li>school: IVE(LWL)</li><li>professions: Higher Diploma in Cloud and Data Centre Administration</li><li>email: official.heizai@gmail.com</li></ul><h3 id="work-experience"><a href="#work-experience" class="headerlink" title="work experience"></a>work experience</h3><ul><li>Cathay Pacific internship</li><li>Interest Class Tutor: <ol><li>lego education</li><li>drone programming performance</li><li>microbit</li><li>codespace game design</li></ol></li></ul>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="about-me"><a href="#about-me" class="headerlink" title="about me"></a>about me</h3><ul><li>name: Qian Hongyi</li><li>school: IVE(LWL)</li><li>professions: Higher Diploma in Cloud and Data Centre Administration</li><li>email: official.heizai@gmail.com</li><li>linkedin: <a href="https://www.linkedin.com/in/hongyi-qian-%E9%8C%A2%E5%BC%98%E6%AF%85-a71b17290/">https://www.linkedin.com/in/hongyi-qian-%E9%8C%A2%E5%BC%98%E6%AF%85-a71b17290/</a></li><li>Self-introduction：</li></ul><p>I am currently a Higher Diploma student in Cloud Systems and Data Centre Management, passionate and ambitious, always striving to maximize my personal capabilities. I am constantly learning, adapting, and self-improving.</p><p>I have been a hobby class tutor, teaching Lego Education, Microbit, CodeSpace game design, and drone programming performance. Through these teaching experiences, I have honed my teaching and communication skills.</p><p>I have interned at Cathay Pacific, one of the largest companies in Hong Kong. During my time there, I gained a deep understanding of the role of an IT technician specializing in inventory and management. I am eager to further my knowledge in automation and explore how my role can contribute to the success of such a complex and dynamic company.</p><h3 id="work-experience"><a href="#work-experience" class="headerlink" title="work experience"></a>work experience</h3><ul><li>Cathay Pacific internship</li><li>Interest Class Tutor: <ol><li>lego education</li><li>drone programming performance</li><li>microbit</li><li>codespace game design</li></ol></li></ul><h3 id="skill"><a href="#skill" class="headerlink" title="skill"></a>skill</h3><ul><li>CSS</li><li>JavaScript</li><li>Python</li></ul><h3 id="accreditation"><a href="#accreditation" class="headerlink" title="accreditation"></a>accreditation</h3><ul><li>AWS accreditation<ol><li>AWS Academy Graduate - AWS Academy Cloud Architecting</li><li>AWS Academy Graduate - AWS Academy Cloud Operations</li><li>AWS Academy Graduate - AWS Academy Cloud Foundations</li></ol></li><li>competition<ol><li>ICE CHALLENCE Silver Award(Hong Kong and Macau)</li></ol></li></ul><h3 id="what-I-want-to-say"><a href="#what-I-want-to-say" class="headerlink" title="what I want to say"></a>what I want to say</h3><ul><li>The reason for setting up this blog in the first place：</li></ul><p>Having your own independent website allows you to document your life, track your learning journey, and create a personal space that is entirely yours. You won’t need to rely on platforms like CSDN to write blogs or use cloud notes for your thoughts. Your website effectively becomes a personal business card, showcasing who you are. It’s not just about writing for fun; it’s a place to record your experiences, share your knowledge, and highlight the skills you want to showcase to others.</p><ul><li>About future planning：</li></ul><p>Career Goal:<br>To become a leading expert in cloud systems and data center management, leveraging automation and innovative technologies to optimize IT infrastructure and drive business success.</p><p>Career Plan:</p><ol><li>Complete my Higher Diploma in Cloud Systems and Data Centre Management.</li><li>Obtain relevant certifications such as AWS Certified Solutions Architect, Microsoft Azure Administrator, and CompTIA Cloud+.</li></ol>]]></content>
       
     </entry>
     
@@ -45,6 +34,17 @@
       <title>comments</title>
       <link href="/comments/index.html"/>
       <url>/comments/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
